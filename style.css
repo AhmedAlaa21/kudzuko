@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 600px;
+  background-image: url(images/blue_bg.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+p {
+  color: gray;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.main-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.main-links a {
+  text-decoration: none;
+  margin-right: 60px;
+  color: gray;
+}
+
+.login-btn a {
+  text-decoration: none;
+  background-image: url(images/login_button_bg.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  color: gray;
+  border-radius: 12px;
+  padding: 20px;
+  margin-right: 40px;
+}
+
+.main-links a:hover {
+  border-bottom: 2px solid purple;
+}
+
+.main-section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.main-sec-div {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 150px;
+}
+
+.main-def {
+  color: gray;
+}
+
+.main-section p {
+  color: gray;
+  font-size: 14px;
+}
+
+.logistics-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.logistics-man {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logistics-man-ph {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 10px;
+  z-index: 1;
+}
+
+.clouds {
+  position: absolute;
+  top: 320px;
+  z-index: 2;
+}
+.waves {
+  position: absolute;
+  bottom: -0.5px;
+  z-index: 1;
+}
+
+.services-section {
+  height: 750px;
+  width: 100%;
+  background-image: url(images/second_section_.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.service1 {
+  height: 600px;
+  width: 300px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.service1 p {
+  font-size: 18px;
+  color: gray;
+}
+
+.service1-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.service1-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service1-two-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.why {
+  z-index: 1;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.service2 {
+  height: 600px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.service2 p {
+  font-size: 14px;
+  color: gray;
+}
+
+.service3 {
+  height: 600px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  margin-top: 70px;
+  margin-right: 30px;
+}
+
+.service3 p {
+  font-size: 14px;
+  color: gray;
+}
+
+.section3 {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.sec3-card {
+  margin-right: 100px;
+}
+
+.sec3-card-special{
+    position: relative;
+    height: 300px;
+    width:500px;
+    margin-right: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.left-arrow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 40px;
+    color: black;
+}
+.right-arrow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.support {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+
+}
